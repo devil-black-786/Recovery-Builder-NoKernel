@@ -15,9 +15,9 @@ on:
 
 env:
   MANIFEST: https://github.com/SKYHAWK-Recovery-Project/platform_manifest_twrp_omni.git -b beta3_9.0
-  DEVICE: olivelite
-  DT_LINK: https://github.com/SHRP-Devices/android_recovery_xiaomi_olivelite
-  DT_PATH: device/xiaom/olivelite mi
+  DEVICE: CPH1861
+  DT_LINK: https://github.com/SHRP-Devices/device_oppo_CPH1861
+  DT_PATH: device/oppo/CPH1861
   TARGET: recoveryimage
   TZ: Asia/Kolkata
 
