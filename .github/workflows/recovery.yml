@@ -14,9 +14,9 @@ on:
     types: [started]
 
 env:
-  MANIFEST: https://github.com/SKYHAWK-Recovery-Project/platform_manifest_twrp_omni.git -b beta3_9.0
+  MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b android-9.0
   DEVICE: CPH1861
-  DT_LINK: https://github.com/SHRP-Devices/device_oppo_CPH1861
+  DT_LINK: https://github.com/buddi56/dummy_CPH1861_TWRP
   DT_PATH: device/oppo/CPH1861
   TARGET: recoveryimage
   TZ: Asia/Kolkata
