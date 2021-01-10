@@ -14,9 +14,9 @@ on:
     types: [started]
 
 env:
-  MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
+  MANIFEST: https://github.com/SHRP/platform_manifest_twrp_omni -b v3_9.0
   DEVICE: CPH1861
-  DT_LINK: https://github.com/buddi56/dummy_CPH1861_TWRP
+  DT_LINK: https://github.com/SHRP-Devices/device_oppo_CPH1861
   DT_PATH: device/oppo/CPH1861
   TARGET: recoveryimage
   TZ: Asia/Kolkata
@@ -58,4 +58,4 @@ jobs:
          run: |
               cd work/out/target/product/$DEVICE
               curl -sL https://git.io/file-transfer | sh
-              ./transfer wet *.img   
+              ./transfer wet *.zip   
